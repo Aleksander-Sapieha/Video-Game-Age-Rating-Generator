@@ -2,6 +2,6 @@
 
 A python script that generates an age rating for your game
 
-# Building from source
+# Compiling
 
 Run build.bat
