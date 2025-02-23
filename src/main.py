@@ -1,3 +1,6 @@
+import sys
+import os
+
 def get_rating():
     print("Video Game Age Rating Generator")
     print("Answer the following questions:")
@@ -36,6 +39,11 @@ def get_rating():
     
     print(f"\nThe recommended age rating for your game is: {rating}")
 
+def main():
+    get_rating()
+    os.system("PAUSE")
+    sys.exit
+
 # Run the rating generator
 if __name__ == "__main__":
-    get_rating()
+    main()
